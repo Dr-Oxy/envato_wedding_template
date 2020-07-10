@@ -1,0 +1,84 @@
+/* Css Variables */
+:root {
+    --primary-color: #333333;
+    --secondary-color: #364b4d;
+    --complementary-color: #2caeb8;
+    --text-color: #E6E6E6;
+    --gray-color: #808080;
+
+    --heading-font: Playfair Display, san-serif;
+    --body-font: Airbnb Cereal App, san-serif ;
+}
+
+body{
+    background-color:var(--primary-color)!important;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: 27px 20px;
+}
+
+.nav-item {
+    color: #b3b3b3!important;
+}
+
+.navbar-toggler {
+    border: 1px solid var(--text-color) !important;
+}
+
+.jumbotron.jumbotron-fluid {
+    height: 100vh;
+    background-image: url(/images/Hero-image.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.568);
+    background-blend-mode: multiply;
+    color: white;
+
+    font-family: var(--heading-font);
+}
+
+.hero-button {
+    background-color: var(--complementary-color);
+    color: white;
+    border: none;
+}
+
+h6, p.colored {
+    color: var(--complementary-color)!important;
+}
+
+h6{
+    display: flex;
+    align-items: center;
+}
+h6::before {
+    box-sizing: border-box;
+    content: "";
+    display: inline-block;
+    background-color: var(--complementary-color);
+    width: 64px;
+    height: 2px;
+    margin-right: 24px;
+}
+
+.service, .contact, .footer-text {
+    background-color: var(--secondary-color);
+}
+
+.contact {
+    height: 400px;
+}
+.footer-image {
+    height: 30vh;
+    background-image: url(/images/contact-image.png);
+    background-repeat: none;
+    background-position: center center;
+    background-size: cover;
+    background-color:#364b4d; 
+    background-blend-mode: multiply;
+}
+
+
