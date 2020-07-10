@@ -16,7 +16,6 @@ body{
 
 .navbar {
     background-color: var(--primary-color);
-    padding: 27px 20px;
 }
 
 .nav-item {
@@ -28,7 +27,7 @@ body{
 }
 
 .jumbotron.jumbotron-fluid {
-    height: 100vh;
+    height: 80vh;
     background-image: url(/images/Hero-image.jpg);
     background-repeat: none;
     background-size: cover;
@@ -39,7 +38,9 @@ body{
 
     font-family: var(--heading-font);
 }
-
+.hero-text {
+    font-size: 56px;
+}
 .hero-button {
     background-color: var(--complementary-color);
     color: white;
@@ -81,4 +82,18 @@ h6::before {
     background-blend-mode: multiply;
 }
 
+.form-control {
+    border-radius: 0rem !important;
+}
 
+.form-group {
+    /* width: 80% !important; */
+}
+
+.form-width {
+    /* width: 55% !important; */
+}
+
+.form-text {
+    /* color: var(--complementary-color); */
+}
